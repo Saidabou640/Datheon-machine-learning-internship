@@ -110,6 +110,22 @@ These importance scores describe the model's predictive behavior and do not esta
 
 ## Visualizations and Results
 
+### ROC Curve Comparison
+
+![ROC Curve Comparison](results/tuned_models_roc_curve.png)
+
+### Confusion Matrices
+
+![Tuned Models Confusion Matrices](results/tuned_models_confusion_matrices.png)
+
+### Top 10 XGBoost Feature Importance
+
+![Top 10 XGBoost Feature Importance](results/top10_xgboost_feature_importance.png)
+
+### Customer Churn Distribution
+
+![Customer Churn Distribution](results/churn_distribution.png)
+
 The `results/` directory contains:
 
 - `churn_distribution.png` — Distribution of customer churn.

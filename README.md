@@ -1,9 +1,3 @@
-# Datheon Machine Learning and Data Science Internship
-
-Welcome to my GitHub repository for the Datheon Machine Learning and Data Science Internship.
-
-This repository documents my practical work, projects, experiments, and implementations throughout the internship. Each task is organized in a separate folder and includes the relevant code, datasets, documentation, and results.
-
 ## Projects
 
 ### Task 1: Multi-Class Benchmark Classification Pipeline
@@ -11,59 +5,50 @@ This repository documents my practical work, projects, experiments, and implemen
 **Status:** Completed
 
 - Dataset: Iris
-- Task: Supervised multi-class classification
-- Models:
-  - Logistic Regression
-  - Decision Tree
-- Techniques:
-  - Data preprocessing
-  - Exploratory Data Analysis (EDA)
-  - Feature scaling using StandardScaler
-  - Train-test splitting
-  - Model evaluation and comparison
-  - Confusion matrix visualization
+- Task: Multi-class classification
+- Models: Logistic Regression and Decision Tree
+- Techniques: Data preprocessing, EDA, feature scaling, model evaluation.
 
 **Best test accuracy:** 96.67% (Decision Tree)
 
 [View Task 1 Project](Task_1_Multiclass_Classification/)
 
-### Task 2: Coming Soon
+### Task 2: California Housing Price Prediction
 
-### Task 3: Coming Soon
+**Status:** Completed
 
-### Task 4: Coming Soon
+- Dataset: California Housing
+- Task: Supervised regression
+- Models: Linear Regression, Ridge, Lasso, Random Forest, Extra Trees, and HistGradientBoosting.
+- Techniques: Feature engineering, preprocessing, hyperparameter tuning, and residual analysis.
 
-## Technologies and Tools
+**Best RMSE:** $45,066.20 (HistGradientBoosting)
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Jupyter Notebook
-- Git and GitHub
+**Best R²:** 0.8450
 
-## Repository Structure
+[View Task 2 Project](Task_2_Housing_Price_Prediction/)
 
-```text
-Datheon_Internship/
-│
-├── Task_1_Multiclass_Classification/
-│   ├── data/
-│   ├── notebooks/
-│   ├── results/
-│   ├── src/
-│   ├── README.md
-│   └── requirements.txt
-│
-├── Task_2/
-├── Task_3/
-├── Task_4/
-│
-└── README.md
-```
+### Task 3: Customer Churn Prediction
 
-## About
+**Status:** Completed
 
-This repository is maintained as part of my participation in the Datheon Machine Learning and Data Science Internship. It will be updated as I progress through the internship assignments.
+- Dataset: IBM Telco Customer Churn
+- Task: Binary classification
+- Models: Random Forest and XGBoost.
+- Techniques: Class imbalance handling, stratified cross-validation, hyperparameter optimization, and feature importance analysis.
+
+**Best ROC-AUC:** 84.84% (Tuned XGBoost)
+
+[View Task 3 Project](Task_3_Customer_Churn_Prediction/)
+
+### Task 4: Sentiment Classification
+
+**Status:** Completed
+
+- Task: Sentiment classification of customer reviews.
+- Models: Multinomial Naive Bayes and Logistic Regression.
+- Techniques: Text preprocessing, TF-IDF vectorization, class balancing, and sentiment prediction.
+
+**Best macro F1-score:** 59.22% (Balanced Logistic Regression)
+
+[View Task 4 Project](Task_4_Sentiment_Classification/)

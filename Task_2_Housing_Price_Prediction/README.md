@@ -74,6 +74,18 @@ The final models were evaluated on the test dataset.
 
 ## Visualizations and Results
 
+### Final Model Comparison
+
+![Final Model Comparison](results/final_model_comparison.png)
+
+### Actual vs. Predicted Housing Prices
+
+![Actual vs Predicted](results/actual_vs_predicted.png)
+
+### Residual Analysis
+
+![Residual Plot](results/residual_plot.png)
+
 The `results/` directory contains the following visualizations and evaluation files:
 
 | File | Description |

@@ -52,6 +52,18 @@ Two classification algorithms were trained:
 | Recall | 93.33% | 96.67% |
 | F1-score | 93.33% | 96.66% |
 
+### Model Comparison
+
+![Model Comparison](results/model_comparison.png)
+
+### Logistic Regression Confusion Matrix
+
+![Logistic Regression Confusion Matrix](results/logistic_regression_confusion_matrix.png)
+
+### Decision Tree Confusion Matrix
+
+![Decision Tree Confusion Matrix](results/decision_tree_confusion_matrix.png)
+
 ## 7. Conclusion
 
 The Decision Tree achieved the best performance on this test split, correctly classifying 29 out of 30 observations. Logistic Regression correctly classified 28 out of 30 observations.
@@ -63,7 +75,6 @@ Both models performed well. The confusion matrices showed that distinguishing Ve
 - `data/`: Iris dataset.
 - `notebooks/`: Jupyter notebook containing the analysis and model evaluation.
 - `results/`: Saved visualizations.
-- `src/`: Source code, if applicable.
 
 ## 9. Tools and Libraries
 
