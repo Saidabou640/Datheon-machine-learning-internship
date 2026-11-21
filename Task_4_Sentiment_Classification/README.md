@@ -102,11 +102,17 @@ These results demonstrate the trade-off between overall accuracy and performance
 
 ### Confusion Matrices
 
-The confusion matrices for all three models are available in the `outputs` folder:
+#### Multinomial Naive Bayes
 
-- `Naive_Bayes_confusion_matrix.png`
-- `Logistic_Regression_confusion_matrix.png`
-- `Balanced_Logistic_Regression_confusion_matrix.png`
+![Naive Bayes Confusion Matrix](outputs/Naive_Bayes_confusion_matrix.png)
+
+#### Logistic Regression
+
+![Logistic Regression Confusion Matrix](outputs/Logistic_Regression_confusion_matrix.png)
+
+#### Balanced Logistic Regression
+
+![Balanced Logistic Regression Confusion Matrix](outputs/Balanced_Logistic_Regression_confusion_matrix.png)
 
 ## Sentiment Prediction
 
